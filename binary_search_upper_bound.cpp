@@ -16,6 +16,6 @@ while(1){
 		          r=mid-1;
 	      }
 	  else l=mid+1;
-    }
+    	  }
 	  cout<<arr[ans]<<"\n";
 }
