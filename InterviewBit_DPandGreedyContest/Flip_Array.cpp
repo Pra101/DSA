@@ -4,7 +4,8 @@ int N;
 int s;
 int dp[101][20003];
 // this recurisive function finds the minimum sign flips
-// invoked in second when s has already been find by rec2 runs in quardractic time
+// invoked in second when s has already been found by rec2.
+// runs in quardractic time
 int recur(int idx,int sum){
     if(idx==N){
         return ((sum==s)?0:inf);
